@@ -1,0 +1,29 @@
+:: Это однострочный комментарий
+
+/+
+Это многострочный
+комментарий
++/
+
+const my_array = '(1 2 3)';
+
+const my_dict = @{
+    name = "John";
+    age = 30;
+};
+
+const result = ^[my_array 1 +];
+
+const complex_dict = @{
+    info = @{
+        city = "New York";
+        zip = 10001;
+    };
+    hobbies = '(reading coding)';
+};
+
+const postfix_result = ^[10 5 - 2 *];
+
+const concat_result = ^["Hello" "World" concat];
+
+const mod_result = ^[10 3 mod];

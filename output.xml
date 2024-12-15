@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<config>
+  <my_array>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </my_array>
+  <my_dict>
+    <name>John</name>
+    <age>30</age>
+  </my_dict>
+  <result>4</result>
+  <complex_dict>
+    <info>
+      <city>New York</city>
+      <zip>10001</zip>
+    </info>
+    <hobbies>
+      <item>reading</item>
+      <item>coding</item>
+    </hobbies>
+  </complex_dict>
+  <postfix_result>10</postfix_result>
+  <concat_result>HelloWorld</concat_result>
+  <mod_result>1</mod_result>
+</config>
